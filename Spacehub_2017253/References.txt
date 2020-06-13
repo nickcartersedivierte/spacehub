@@ -1,0 +1,23 @@
+References:
+
+ISS tracker API:
+
+https://wheretheiss.at/w/developer
+
+https://www.openstreetmap.org/copyright
+https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
+
+Leaflet tutorial:
+https://leafletjs.com/examples/quick-start/
+
+Marker & Icon:
+https://leafletjs.com/examples/custom-icons/
+https://leafletjs.com/reference-1.6.0.html#icon
+
+ICON FREE DOWNLOAD for marker:
+https://thenounproject.com/
+
+Nasa's pic of the day API:
+https://apodapi.herokuapp.com/
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+
+<head>
+<meta charset = "utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="Ana Ospitaletche">
+
+<title>Spacehub</title>
+
+<link href="css/styling.css" rel="stylesheet">
+<!-- -from Leaflet.js documentation -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+    
+    <!-- -from Leaflet.js documentation -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
+
+</head>
+    
+<body>
+    
+<ul class="navbar">
+  <li><a href="index.html">NASA's Pic</a></li>
+  <li><a href="iss.html">ISS Tracker</a></li>
+</ul>
+
+
+<div class ="container">
+    <h1>ISS coordinates</h1>
+
+    <div id = "mapISS"></div>
+    <p>
+    latitude: <span id= "lat"></span>° <br />
+    longitude: <span id= "lon"></span>° 
+    </p>
+</div> 
+    
+<script src ="javascript/script.js"></script>
+<script src ="javascript/script-sat.js"></script>
+  
+
+    
+</body>
+</html>
